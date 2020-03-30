@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.3" orientation="orthogonal" renderorder="right-down" width="16" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="39">
+ <editorsettings>
+  <chunksize width="1000" height="1000"/>
+ </editorsettings>
+ <tileset firstgid="1" source="dungeon_sheet.tsx"/>
+ <layer id="4" name="Tile Layer 1" width="16" height="6">
+  <data encoding="base64">
+   AQAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAwAAABkAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABsAAAAZAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAbAAAAGQAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGwAAABkAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABsAAAAxAAAAMgAAADIAAAAyAAAAMgAAADIAAAAyAAAAMgAAADIAAAAyAAAAMgAAADIAAAAyAAAAMgAAADIAAAAzAAAA
+  </data>
+ </layer>
+ <layer id="5" name="Tile Layer 2" width="16" height="6">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC3AAAAAAAAAAAAAAC3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC3AAAAAAAAAAAAAAAAAAAAtwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <objectgroup id="6" name="Collisions">
+  <object id="21" x="32" y="16" width="16" height="16"/>
+  <object id="22" x="80" y="32" width="16" height="16"/>
+  <object id="23" x="32" y="48" width="16" height="16"/>
+  <object id="24" x="64" y="64" width="16" height="16"/>
+  <object id="25" x="128" y="48" width="16" height="16"/>
+  <object id="26" x="160" y="16" width="16" height="16"/>
+  <object id="27" x="192" y="48" width="16" height="16"/>
+  <object id="28" x="240" y="32" width="16" height="16"/>
+  <object id="29" x="0" y="0" width="2.98127" height="96"/>
+  <object id="32" x="0.186329" y="0" width="255.271" height="6.14887"/>
+  <object id="33" x="251.172" y="0" width="4.28558" height="95.9596"/>
+  <object id="34" x="0" y="91.6741" width="255.644" height="3.35393"/>
+ </objectgroup>
+ <objectgroup id="7" name="Objects">
+  <object id="38" name="playerSpawn" x="167.696" y="71.7368">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
